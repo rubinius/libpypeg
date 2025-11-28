@@ -10,7 +10,6 @@ all: setup config build test
 
 ##@ Dependencies
 setup: ## Clone all components
-	@git submodule update --init --recursive
 	@./.build2/scripts/setup-build2.sh $(PROJ)
 
 config: ## Configure
