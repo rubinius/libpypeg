@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libpypeg/
+}
+
+export $out_root/libpypeg/$import.target

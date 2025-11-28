@@ -1,0 +1,3 @@
+import libs = libpypeg%lib{pypeg}
+
+exe{driver}: {h c}{**} $libs testscript{**}
