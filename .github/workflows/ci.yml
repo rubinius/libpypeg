@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    uses: rubinius/.github/.github/workflows/build2-ci.yml@main
+    with:
+      build-target: libpypeg
