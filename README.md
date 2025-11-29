@@ -1,41 +1,7 @@
-# libpypeg - A C library
+# libpypeg - The Python PEG Parser as a C++ library
 
-The `libpypeg` C library provides <SUMMARY-OF-FUNCTIONALITY>.
+## License
 
+Any parts that are directly copies from [C Python](https://github.com/python/cpython) are covered by the [Python license](https://github.com/python/cpython/blob/main/LICENSE).
 
-## Usage
-
-To start using `libpypeg` in your project, add the following `depends`
-value to your `manifest`, adjusting the version constraint as appropriate:
-
-```
-depends: libpypeg ^<VERSION>
-```
-
-Then import the library in your `buildfile`:
-
-```
-import libs = libpypeg%lib{<TARGET>}
-```
-
-
-## Importable targets
-
-This package provides the following importable targets:
-
-```
-lib{<TARGET>}
-```
-
-<DESCRIPTION-OF-IMPORTABLE-TARGETS>
-
-
-## Configuration variables
-
-This package provides the following configuration variables:
-
-```
-[bool] config.libpypeg.<VARIABLE> ?= false
-```
-
-<DESCRIPTION-OF-CONFIG-VARIABLES>
+For all other code, the copyright is held by the Rubinius Contributors and licensed under [BSD 3-clause](/LICENSE).
