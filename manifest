@@ -1,13 +1,13 @@
 : 1
 name: libpypeg
-version: 0.1.0-a.0.z
+version: 3.15.0
 language: c
-summary: pypeg C library
-license: other: proprietary ; Not free/open source.
+summary: Python PEG parser as a standalone C library
+license: BSD 3-clause
 description-file: README.md
-url: https://example.org/libpypeg
+url: https://github.com/rubinius/libpypeg
 email: brixen@gmail.com
-#build-error-email: brixen@gmail.com
+build-error-email: brixen@gmail.com
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
 #depends: libhello ^1.0.0
